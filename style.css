@@ -1,0 +1,58 @@
+.btn-primary {
+    background-color: black;
+    color: darkkhaki;
+    
+
+}
+
+header {
+    height: 90px;
+    background-color: black;
+    color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    height: 90px;
+    background-color: black;
+    color:darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section{
+    margin:40px 0;
+  }
+  
+  .row{
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .card-body .btn {
+    margin-top: auto;
+  }
+
+  @media screen and (max-width: 600px){
+    .btn-primary{
+      background-color: darkkhaki;
+      color: black;
+    }
+  }
